@@ -234,7 +234,7 @@ export default function Home() {
       }, 10_000);
     }
 
-  }, [walletConnected]);
+  }, [walletConnected]); // eslint-disable-line react-hooks/exhaustive-deps
 
 
   /*

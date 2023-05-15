@@ -1,8 +1,0 @@
-type Game @entity {
-  id: ID!
-  maxPlayers: BigInt! # Should be Int, but there is a bug in the smart contract (pushed uint8 as uint256)
-  entryFee: BigInt!
-  winner: Bytes
-  requestId: Bytes
-  players: [Bytes!]!
-}
